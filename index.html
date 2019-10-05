@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 
+<html <!-- lang="zh-cN">
+    <head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="utf-8">
+    <!--
+        © SukkaW
+        GitHub: https://github.com/SukkaW/hexo-theme-suka
+        Version: 1.3.3
+    -->
+    <script>
+window.lsVersion = "1.3.3",
+window.oldVersion = [
+    
+        
+            "0.2.0","0.0.1","0.1.0","1.0.0","1.0.1","1.1.0","1.1.1","1.2.0","1.3.0","1.3.2"
+        
+    
+]
+</script>
+
+    <!-- ### DNS Prefetch ### -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+<!-- busuanzi -->
+
+    <link rel="dns-prefetch" href="//busuanzi.ibruce.info">
 
 
-  
-
-
-<html class="theme-next muse use-motion" lang="zh-cN">
-<head><meta name="generator" content="Hexo 3.9.0">
-  <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="theme-color" content="#222">
+<!-- comment -->
 
 
 
@@ -18,649 +34,533 @@
 
 
 
+<!-- analytics -->
 
 
+
+
+
+
+
+
+    <!-- ### Preload ### -->
+    
+    <!-- Busuanzi -->
+    
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.js" as="script">
+
+
+
+
+
+
+
+    <!-- ### Meta & Title & Info ### -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+
+<!-- Title -->
+<title>是我的博客吗</title>
+
+<!-- favicon -->
+<!-- Favicons -->
+
+    <link rel="icon" type="image/ico" href="/img/suka-favicon.ico">
+
+
+
+
+
+
+<!-- Android Chrome Color -->
+
+
+
+<meta name="format-detection" content="telephone=no">
+
+<!-- Description -->
+<meta name="description" content="记录美好生活">
+
+<!-- Keywords -->
+<meta name="keywords" content>
+
+<!-- Disable Fucking Bloody Baidu Tranformation -->
 <meta http-equiv="Cache-Control" content="no-transform">
 <meta http-equiv="Cache-Control" content="no-siteapp">
 
+    <!-- ### Import File ### -->
+   <!--  
+        <!-- spectre.css -->
+
+    <link rel="stylesheet" href="/lib/spectre/spectre.min.css">
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
-
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
-
-
-
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
-
-<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css">
-
-
-  <meta name="keywords" content="Hexo, NexT">
-
-
-
-
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.2">
-
-
-
-
-
-
-<meta name="description" content="记录美好生活">
-<meta property="og:type" content="website">
-<meta property="og:title" content="是我的博客吗">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="是我的博客吗">
-<meta property="og:description" content="记录美好生活">
-<meta property="og:locale" content="zh-cN">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="是我的博客吗">
-<meta name="twitter:description" content="记录美好生活">
-
-
-
-<script type="text/javascript" id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '/',
-    scheme: 'Muse',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: true,
-    tabs: true,
-    motion: true,
-    duoshuo: {
-      userId: '0',
-      author: 'Author'
-    },
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+<style>
+    body {
+        background-color: #f8f9fa;
     }
-  };
+
+    a, a:visited {
+        color: #0070ff;
+    }
+
+    a:active, a:focus, a:hover {
+        color: #0070ff;
+        opacity: .75;
+    }
+
+    #post-content a,
+    #post-content a:hover,
+    #post-content a:focus,
+    #post-content a:visited {
+        color: #005eb9;
+        opacity: 1;
+    }
+
+    .post-entry .card-body a {
+        color: #0070ff;
+    }
+
+    .avatar {
+        background: #444;
+    }
+
+    .navbar-link,
+    .navbar-link:visited,
+    .timeline .timeline-item .timeline-icon.icon-lg {
+        color: #0070ff;
+    }
+
+    .navbar-link:hover {
+        color: #0070ff;
+        opacity: .8;
+    }
+
+    #search-input .btn,
+    #disqus_click_btn,
+    #disqus-switch-to-direct,
+    #disqus-loadmore-button {
+        background: #727e96;
+        border-color: #727e96;
+        color: #fff;
+    }
+
+    #post-toc a.post-toc-link,
+    #post-toc a.post-toc-link:visited,
+    .share-menu.menu .menu-item>a {
+        color: #727e96;
+    }
+
+    .share-menu.menu .menu-item>a:hover,
+    .share-menu.menu .menu-item>a:focus,
+    .share-menu.menu .menu-item>a:visited {
+        color: #50596c;
+        background: #f8f9fa;
+        opacity: .85;
+    }
+</style>
+
+<!-- style.css -->
+
+    <link rel="stylesheet" href="/css/style.min.css">
+
+
+
+
+<!-- 
+ -->
+
+
+
+    <!-- Prettify Theme -->
+    
+
+
+     -->
+
+    <!-- ### Site Verification ### -->
+    
+
+
+    <!-- ### RSS ### -->
+    
+
+    <!-- ### WebApp ### -->
+    <meta name="mobile-web-app-capable" content="yes">
+<meta name="application-name" content="是我的博客吗">
+<meta name="msapplication-starturl" content="http://yoursite.com">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="是我的博客吗">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<!-- Manifest Import -->
+
+<!-- Open Search -->
+
+
+    <!-- ### The Open Graph & Twitter Card Protocol ### -->
+    <meta property="og:title" content="是我的博客吗">
+<meta property="og:site_name" content="是我的博客吗">
+
+<meta property="og:locale" content="zh-cN">
+
+<meta property="og:url" content="http://yoursite.com/">
+<meta property="og:image" content="http://yoursite.com/img/suka-favicon.ico">
+
+<meta property="og:description" content="记录美好生活">
+
+<meta name="twitter:card" content="summary">
+
+
+    <meta property="og:type" content="blog">
+
+
+
+
+
+    <!-- ### Analytics ### -->
+    
+
+
+
+
+
+
+
+
+    <!-- ### Canonical link ### -->
+    <link rel="canonical" href="http://yoursite.com/">
+
+    <!-- ### Structured Data ### -->
+    
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Blog",
+    "author": {
+        "@type": "Person",
+        "name": "怕离别与孤单",
+        "image": {
+            "@type": "ImageObject",
+            "url": "http://yoursite.com/img/default_avatar.png"
+        },
+        "description": "Hi, nice to meet you."
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "是我的博客吗",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http://yoursite.com/img/suka-favicon.ico"
+        }
+    },
+    "url": "http://yoursite.com",
+    "logo": "http://yoursite.com/img/suka-favicon.ico",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://yoursite.com/img/suka-favicon.ico"
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://yoursite.com"
+    },
+    
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "http://yoursite.com/search?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+    },
+    
+    "keywords": "",
+    "description": "记录美好生活"
+}
 </script>
 
 
 
-  <link rel="canonical" href="http://yoursite.com/">
 
 
-
-
-
-  <title>是我的博客吗</title>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-cN">
-
-  
-  
-    
-  
-
-  <div class="container sidebar-position-left 
-   page-home 
- ">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
+    <!-- ### Custom Head ### -->
     
 
-    <div class="custom-logo-site-title">
-      <a href="/" class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">是我的博客吗</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
-    </div>
-      
-        <p class="site-subtitle"></p>
-      
-  </div>
 
-  <div class="site-nav-toggle">
-    <button>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
-  </div>
-</div>
+</head> -->
 
-<nav class="site-nav">
-  
+    <body>
+      <!--   
 
-  
-    <ul id="menu" class="menu">
-      
+            
+
+            <!-- ### Main content ### -->
+            <!-- ## Header ##-->
+<header>
+    <h1 class="header-title text-center"><a href="/">是我的博客吗</a></h1>
+
+    <p class="text-center header-slogan">
         
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+                Hi, nice to meet you.
             
-            Home
-          </a>
-        </li>
-      
         
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
-            
-            Archives
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
-            
-            Tags
-          </a>
-        </li>
-      
+    </p>
 
-      
+    <nav class="navbar-section text-center">
+    
+        <a href="/" class="navbar-link">首页</a>
+    
+    
+        <a href="/archives/" class="navbar-link">归档</a>
+    
+    
+        <a href="/search" class="navbar-link">搜索</a>
+    
+    
+    
+        <div class="dropdown dropdown-right">
+    <a class="navbar-link dropdown-toggle" tabindex="0">分享</a>
+    <ul class="menu share-menu">
+
+        <!-- Share Weibo -->
+        
+        <li class="menu-item">
+            <a href="http://service.weibo.com/share/share.php?appkey=&title=是我的博客吗&url=http://yoursite.com&pic=http://yoursite.com/img/suka-favicon.ico&searchPic=false&style=simple" target="_blank" rel="external noopener noreferrer nofollow">分享到微博</a>
+        </li>
+        
+
+        <!-- Share Twitter -->
+        
+        <li class="menu-item">
+            <a href="https://twitter.com/intent/tweet?text=是我的博客吗&url=http://yoursite.com&via=怕离别与孤单" target="_blank" rel="external noopener noreferrer nofollow">分享到 Twitter</a>
+        </li>
+        
+
+        <!-- Share Facebook -->
+        
+        <li class="menu-item">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com" target="_blank" rel="external noopener noreferrer nofollow">分享到 Facebook</a>
+        </li>
+        
+
+        <!-- Share Google+ -->
+        
+        <li class="menu-item">
+            <a href="https://plus.google.com/share?url=http://yoursite.com" target="_blank" rel="external noopener noreferrer nofollow">分享到 Google+</a>
+        </li>
+        
+
+        <!-- Share LinkedIn -->
+        
+        <li class="menu-item">
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://yoursite.com&title=" target="_blank" rel="external noopener noreferrer nofollow">分享到 LinkedIn</a>
+        </li>
+        
+
+        <!-- Share QQ -->
+        
+        <li class="menu-item">
+            <a href="http://connect.qq.com/widget/shareqq/index.html?site=是我的博客吗&title=&summary=记录美好生活&pics=http://yoursite.com/img/suka-favicon.ico&url=http://yoursite.com" target="_blank" rel="external noopener noreferrer nofollow"> 分享到 QQ</a>
+        </li>
+        
+
+        <!-- Share Telegram -->
+        
+        <li class="menu-item">
+            <a href="https://t.me/share/url?url=http://yoursite.com&text=" target="_blank" rel="external noopener noreferrer nofollow">分享到 Telegram</a>
+        </li>
+        
+
+        <!-- QRCode -->
+        
+        <li class="menu-item">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAAAAABx8Un7AAABLklEQVR42u3ZwbLCMAiF4bz/S+u2dsLJIW2hzvzZePV28i1ECGR8GtYABQXdQodY5///bCCem+0DWotOv/Tjw8Hfx/fWPqCl6Cww1ObqNdoH9B2okwBA/xfNPA/aj0aJOgooldgvVxnQy6j7o3cT/S2nQdBtdNn0LJLEI10b6CVUHcCmwWAW91RGAr0VPScJuyAnPwftRRXsDj+mhR60BY2CIkoIKhjtQAK9FV0lfGfD1XAStB6NDtBu0rCHl6AlqHu4zjZbVsIHfRTNXCBkhpag9ajTCDmFXTVRoLWoO+hwD9VyaAlagu5exDvDaNA+1Amg1ZDZCjLQUtS9tM0UiWXXBtqCqkTuNMmg70StyztR0EF7UCfh71zcgvagzvDCHXbJoTVoCVq5QEFBU+sL0YSSIugE1CwAAAAASUVORK5CYII=" alr="QRCode">
+        </li>
+        
+
     </ul>
-  
-
-  
+</div>
+    
+    
 </nav>
+</header>
 
-
-
- </div>
-    </header>
-
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-  <section id="posts" class="posts-expand">
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/04/blog/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="怕离别与孤单">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="是我的博客吗">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+            <div class="container">
+    <div class="main-container">
+        <main>
+            <div class="post-stream-container">
+                <!-- # Post List # -->
                 
-                <a class="post-title-link" href="/2019/10/04/blog/" itemprop="url">Untitled</a></h1>
+                    
+                        
+    <script src="/lib/vanilla-lazyload/lazyload.min.js" async></script>
+
+<article class="post-entry container px-0 card">
+        <div class="columns col-gapless">
+            
+                <div class="column col-12">
+                    
+
+<p class="mb-0 card-body">
+    
+        你还有什么想知道的吗
+作者/张一心
+1.林爽
+傍晚，江滩边，我像一只哇哇叫的乌鸦那样对着电话大喊：“到底怎么回事！”
+“我不知道，你还是先看看能不能请假？不能请假就算了。”...
+    <a href="/2019/10/05/你还有什么想知道的/">阅读全文</a>
+</p>
+
+
+
+
+    <!-- Date & Category -->
+    <div class="card-footer post-entry-info text-gray">
+        <img class="author-thumb lazyload" data-src="/img/default_avatar.png" src="/img/suka-lazyload.gif" alt="怕离别与孤单's Avatar">
+        <time>2019-10-05</time>
         
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-10-04T19:58:21+08:00">
-                2019-10-04
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
         
-          
-            <p>不要在爱情里装傻</p>
-<p>作者/陈雪</p>
-<p>“他对我非常好，相处日久，我却觉得越来越疲惫。”你说。</p>
-<p>起初，你喜欢他的细心体贴，你喜欢他给你的各种惊喜，他绝对是个好人，心善人慈，相处的时候处处为你着想，能为你做的他都做了。</p>
-<p>他的问题是同居之后开始发现的，你们的关系看似平稳，却逐渐觉得空洞，看起来什么都好，但就是少了什么。</p>
-<p>朋友都问，你到底还有什么不满足？</p>
-<p>“除了当我的男友，他好像没有其他身份了。”你说。</p>
-<p>干着一份可有可无的工作，在公司总是因为人太好吃亏受气，在外受了气，回家跟你抱怨。不敢对别人说的话，只能告诉你。</p>
-<p>他什么都要问你的意见，晚上吃什么好呢？假日去哪儿玩好呢？同事跟上司给的难题也要你帮忙讨论，“就是想听你的意见啊！”起初还有着一起同甘共苦的甜蜜，但日子久了，却觉得他凡事都依赖你，到了自己都不肯思考的地步。</p>
-<p>你感觉他的退缩与依赖逐步升高，他凡事替你着想，逐渐开始丧失自我，生活大小事都以你的需要为主，甚至连工作上的事也依赖你为他做决定，你不是强势的人，他却希望你显得强势。</p>
-<p>“对你好，有什么错？”他问。</p>
-<p>“我想看到你，听到你自己的声音，你的看法，你对世事的理解。但我在你眼里，只看到我自己，这样的恋爱不健康。”</p>
-<p>为什么变成这样的人？你问。</p>
-<p>“我以为爱一个人，就是凡事替她着想。”他说。</p>
-<p>“如果真的替我着想，可不可以请你试着不要那么依赖。”你挣扎着说出这些话，明知道听起来很残忍，但非说不可。</p>
-<p>朋友以为你贪心，想要更有成就的恋人。有人觉得你不知足，这年头有人愿意为你做牛做马，为何不感激？</p>
-<p>你心里模糊说不清楚那些感觉。那感觉像是他逐渐把自己取消，同时也在一点一点取消你对他的爱、敬重与欣赏。</p>
-<p>“我要如何去爱一个没有自我的人？”你问。</p>
-<p>“我爱你，但不意味着我要负担起你人生全部的重量。” 你说。</p>
-<p>“你越努力爱我，我越觉得累。因为所有表面上看起来对我好的事，背后都隐藏着需要，你为我做所有我自己可以做的事，交换的是要我来为你的人生做决定。”你说。</p>
-<p>这是你好不容易才理清的一点点头绪。</p>
-<p>爱上一个好人，有时却会因为他的好而发怒，这样的感觉糟透了，到底是什么让一个好人变成没有主见的人？你检讨自己与他相处的种种，发现自己几乎每天都在督促他，早期大家都还年轻，刚从学校毕业，工作不顺，生活不如意，都像生命的磨练，但随着踏入社会日久，他的好脾气在工作单位里受尽欺负，使他变得退缩、不自信，而这份好脾气也让他在感情关系里处于被动与劣势，他尽量压低自己的需要，以为凡事配合情人就是在对她好，但天下没有白吃的午餐，再怎么卑屈低下的人，也有他的需要，于是，他付出越多，想要的回报就更多，他为你做牛做马，想换得的是你成为他的生命导师，而你从一开始喜欢他的单纯善良，到后来对他的唯唯诺诺感到反感，“可不可以自己做决定”你有时生气起来，“你要练习自己思考，我不能永远陪在你旁边”你对他说，“为什么不能？”他问你。</p>
-<p>因为人生总有悲欢离合、聚散别离，恋爱只是将两个人建立关系的一种形式，不是永远的保证。真正的爱，不只是努力付出，不只是傻傻地什么都替她想，两个人的相遇，不是谁依赖着谁，也不是谁成为谁的生命导师，而是两个人相互喜爱的人，共同陪伴，让彼此在关系里成长，并且有机会透过亲密关系省视自己。爱情不是避风港，不能把“努力去爱某个人”当作人生目标，而逃避自己的成长，爱就像一个盖在土地上的建筑，当你把自我掏空，就像掏空了地基，这份爱也将无处生根、无法着地。</p>
-<p>你想对他说，“替自己着想，把失去的自我找回来，我多希望当我们在一起时，我们可以平等地讨论各种事情，而不是什么事都要听我的看法，什么东西都要我决定，我多希望你也能找到自己的意见，即使那些意见与我相左，即使我们会出现争论，也好过关系里只有我一个人的声音。”</p>
-<p>“一直在催促你成长，那样好寂寞”，你想说，“你以为把什么都给了我，但我却逐渐失去了你。”</p>
-<p>你不知道他懂了没？每次看到他单纯的笑容，就会感到不忍，但一直继续相处，却又让你精疲力竭，你很想用力摇醒他，“继续这样下去不行啊，不能在爱情里装傻，不是一直讨饶卖乖，感情就会自然地丰盛。你对我好，但你真正认识我吗？你认识自己吗？你看得见我们的关系是什么样子吗？你能看到未来吗？五年后，你希望我们仍只是每天你问我要吃什么，去哪里，假日要一起做什么？当我没有陪伴你时，你就会放空耍懒，在我们家里，每一件事都需要我指出方向，那样的未来是你想要的吗？或许只要待在我身旁你就会快乐，那我的快乐呢？我想要两人一起成长，我希望我们是平等的关系，我不想当你的妈妈，也不想你看起来就像我的助理，我想要恋爱，不想要只是被照顾，这些你能懂得吗？”</p>
-<p>他的本质很好，你总是想着，再陪他一段，或许他就会醒悟了，可是两人相陪四五年，你突然觉得自己好苍老，这段被呵护备至的爱情竟然让你老了。</p>
-<p>醒醒吧，你想大声地说，没有觉悟我们就会失去彼此了。</p>
-<p>真正的爱都是建立在觉悟之上的，领悟到想要爱人必须有自主性，要建立关系不能失去自我，不管有没有恋爱，每个人都该为自己的生命负责。</p>
-<p>责任编辑：张拉灯</p>
-
-          
-        
-      
     </div>
-    
-    
-    
 
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
-
-
-          </div>
-          
-
-
-          
-
+                </div>
+            
         </div>
+</article>
+
+                    
+                
+                    
+                        
+    <script src="/lib/vanilla-lazyload/lazyload.min.js" async></script>
+
+<article class="post-entry container px-0 card">
+        <div class="columns col-gapless">
+            
+                <div class="column col-12">
+                    
+
+<p class="mb-0 card-body">
+    
+        不要在爱情里装傻
+作者/陈雪
+“他对我非常好，相处日久，我却觉得越来越疲惫。”你说。
+起初，你喜欢他的细心体贴，你喜欢他给你的各种惊喜，他绝对是个好人，心善人慈，相处的时候处处为你着想，...
+    <a href="/2019/10/04/blog/">阅读全文</a>
+</p>
+
+
+
+
+    <!-- Date & Category -->
+    <div class="card-footer post-entry-info text-gray">
+        <img class="author-thumb lazyload" data-src="/img/default_avatar.png" src="/img/suka-lazyload.gif" alt="怕离别与孤单's Avatar">
+        <time>2019-10-04</time>
         
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+        
     </div>
-  </div>
 
-  <aside id="sidebar" class="sidebar">
-    
-    <div class="sidebar-inner">
-
-      
-
-      
-
-      <section class="site-overview sidebar-panel sidebar-panel-active">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="怕离别与孤单">
-          <p class="site-author-name" itemprop="name">怕离别与孤单</p>
-           
-              <p class="site-description motion-element" itemprop="description">记录美好生活</p>
-          
+                </div>
+            
         </div>
-        <nav class="site-state motion-element">
+</article>
 
-          
-            <div class="site-state-item site-state-posts">
-              <a href="/archives/">
-                <span class="site-state-item-count">1</span>
-                <span class="site-state-item-name">posts</span>
-              </a>
+                    
+                
             </div>
-          
-
-          
-
-          
-
-        </nav>
-
+        </main>
         
-
-        <div class="links-of-author motion-element">
-          
-        </div>
-
-        
-        
-
-        
-        
-
-        
-
-
-      </section>
-
-      
-
-      
 
     </div>
-  </aside>
-
-
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright">
-  
-  &copy; 
-  <span itemprop="copyrightYear">2019</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">怕离别与孤单</span>
 </div>
 
-
-<div class="powered-by">
-  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
-</div>
-
-<div class="theme-info">
-  Theme -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Muse
-  </a>
-</div>
-
-<!-- 新增访客统计代码 -->
-
-<div class="busuanzi-count">
-    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <span class="site-uv">
-      <i class="fa fa-user"></i>
-      访问用户： <span class="busuanzi-value" id="busuanzi_value_site_uv"></span> 人
-    </span>
-    <div class="powered-by"></div>
-    <span class="site-uv">
-      <i class="fa fa-eye"></i>
-      访问次数： <span class="busuanzi-value" id="busuanzi_value_site_pv"></span> 次
-    </span>
-    <!-- 博客字数统计 -->
-    <span class="site-pv">
-      <i class="fa fa-pencil"></i>
-      博客全站共： <span class="post-count"></span> 字
-    </span>
-</div>
-
-
-        
-
-        
-      </div>
-    </footer>
-
+            <!-- ### Footer ### -->
+            <footer class="text-center">
+    <!-- footer copyright -->
+    <p class="footer-copyright mb-0">Copyright&nbsp;©&nbsp;<span data-year></span>
+        <a class="footer-copyright-a" href="http://yoursite.com">是我的博客吗</a>
+    </p>
+    <!-- footer custom text -->
+    <p class="footer-text mb-0">
     
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
+    </p>
+    <!-- footer develop info -->
+    <p class="footer-develop mb-0">
         
-      </div>
+            
+    <!-- Busuanzi User Views -->
+    <span id="busuanzi_container_site_uv" hidden>
+        <span></span>
+        <span id="busuanzi_value_site_uv"></span>
+        <span>Viewers</span>
+        
+            <span>|</span>
+        
+    </span>
+
+
+
+        
+        
+        Powered by&nbsp;<!--
+         --><a href="https://hexo.io" target="_blank" class="footer-develop-a" rel="external nofollow noopener noreferrer">Hexo</a><span class="footer-develop-divider"></span>Theme&nbsp;-&nbsp;<!--
+         --><a href="https://github.com/SukkaW/hexo-theme-suka" target="_blank" class="footer-develop-a" rel="external noopener">Suka</a>
+    </p>
+</footer>
+
+        
+
+        <!-- ### Import File ### -->
+        <!-- ### Footer JS Import ### -->
+
+<script>
+window.lazyLoadOptions = {
+    elements_selector: ".lazyload",
+    threshold: 50
+};
+
+
+
+    /* Copyright */
+    var copyrightNow = new Date().getFullYear();
+    var copyrightContent = document.querySelector('span[data-year]')
+    
+        copyrightContent.textContent = copyrightNow
     
 
-  </div>
 
-  
 
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
+/* Cnosole Log */
+console.log('\n %c Suka Theme (hexo-theme-suka) | © SukkaW | Verision 1.3.3 %c https://github.com/SukkaW/hexo-theme-suka \n', 'color: #fff; background: #444; padding:5px 0;', 'background: #bbb; padding:5px 0;');
 </script>
 
+<!-- vanilla-lazyload -->
 
+    <script src="/lib/vanilla-lazyload/lazyload.min.js" async></script>
 
 
 
+    <!-- Busuanzi -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.js" async></script>
 
 
+<!-- Offset -->
 
 
-  
 
 
 
 
 
+<!-- gallery.js -->
 
 
+<!-- Comment -->
 
 
+<!-- ### Custom Footer ### -->
 
 
+    </body>
 
-  
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-
-  
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
-
-
-
-  
-  
-
-  
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
-
-  
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
-
-
-
-  
-
-
-  
-
-
-
-
-	
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-</body>
 </html>
